@@ -302,6 +302,7 @@ void Parser::toStringDomain() {
     for (long unsigned int i = 0; i < domain.size(); setItr++) {
         if (i == domain.size()-1) {
             std::cout << "  " << *setItr;
+            i++;
         }
         else {
             std::cout << "  " << *setItr << std::endl;
