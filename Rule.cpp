@@ -23,7 +23,7 @@ std::string Rule:: toStringRule() {
 
     myString += head->toStringPredicate() + " :- ";
 
-    for (int i = 0; i < (body.size()); i++) {
+    for (long unsigned int i= 0; i < (body.size()); i++) {
         if ((body.size() > 1) && (i != body.size()-1)) {
             myString += body.at(i)->toStringPredicate() + ",";
         }

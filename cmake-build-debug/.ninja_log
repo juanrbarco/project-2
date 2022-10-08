@@ -64,3 +64,10 @@
 308	475	6869013578238530	project_1.exe	b2157d976f1261bc
 3	317	6869014770011377	CMakeFiles/project_1.dir/Rule.cpp.obj	7e3c91c382ff18b4
 318	485	6869014771651736	project_1.exe	b2157d976f1261bc
+2	508	6869020491401898	CMakeFiles/project_1.dir/Parser.cpp.obj	ae0116c4a48ed8be
+508	684	6869020493142288	project_1.exe	b2157d976f1261bc
+23	473	6869028050539352	CMakeFiles/project_1.dir/Rule.cpp.obj	7e3c91c382ff18b4
+14	475	6869028050539352	CMakeFiles/project_1.dir/Predicate.cpp.obj	746cccd7cafab155
+3	547	6869028051269505	CMakeFiles/project_1.dir/main.cpp.obj	128b79d7b267cb9
+18	638	6869028052179705	CMakeFiles/project_1.dir/Parser.cpp.obj	ae0116c4a48ed8be
+638	978	6869028055560475	project_1.exe	b2157d976f1261bc

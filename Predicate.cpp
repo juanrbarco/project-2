@@ -47,7 +47,7 @@ std::string Predicate::toStringPredicate() {
     std::string myString = "";
     myString += id + "(";
 
-    for (int i = 0; i < parameters.size(); i++) {
+    for (long unsigned int i = 0; i < parameters.size(); i++) {
         if (i != (parameters.size() - 1)) {
             myString += parameters.at(i)->toString() + ",";
         }

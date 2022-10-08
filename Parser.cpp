@@ -6,7 +6,7 @@
 #include "Parser.h"
 
 Parser::Parser(const std::vector<Token*>& vectorTokens) {
-    for (int i = 0; i < vectorTokens.size(); i++) {
+    for (long unsigned int i = 0; i < vectorTokens.size(); i++) {
         if (vectorTokens.at(i)->getTokenType()==TokenType::COMMENT) {}
         else {
             tokens.push_back(vectorTokens.at(i));
@@ -15,7 +15,7 @@ Parser::Parser(const std::vector<Token*>& vectorTokens) {
 }
 
 Parser::~Parser() {
-    for (int i = 0; i < tokens.size(); i++) {
+    for (long unsigned int i = 0; i < tokens.size(); i++) {
         delete tokens.at(i);
     }
     tokens.clear();
@@ -32,8 +32,6 @@ void Parser::parse() {
         std::cout << "Failure!" << std::endl;
         std::cout << "  (" << tokens.at(index)->tokenTypeToString(tokens.at(index)->getTokenType()) << ",\"" << tokens.at(index)->getActualValue();
         std::cout << "\"," << tokens.at(index)->getLineNumber() << ")";
-        exit;
-
     }
 }
 
@@ -301,7 +299,7 @@ void Parser::toStringDomain() {
     }*/
     std::cout <<"Domain(" <<domain.size() << "):" << std::endl;
     std::set<std::string>::iterator setItr = domain.begin();
-    for (int i = 0; i < domain.size(); setItr++) {
+    for (long unsigned int i = 0; i < domain.size(); setItr++) {
         if (i == domain.size()-1) {
             std::cout << "  " << *setItr;
         }

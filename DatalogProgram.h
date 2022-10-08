@@ -51,22 +51,22 @@ public:
 
     void printProgram() {
         std::cout << "Schemes(" << schemes.size() << "):" << std::endl;
-        for (int i = 0; i < schemes.size(); i++) {
+        for (long unsigned int i = 0; i < schemes.size(); i++) {
             std::cout << "  " << schemes.at(i)->toStringPredicate() << std::endl;
         }
         std::cout << "Facts(" <<facts.size() << "):" << std::endl;
-        for (int i = 0; i < facts.size(); i++) {
+        for (long unsigned int i = 0; i < facts.size(); i++) {
             std::cout <<  "  " << facts.at(i)->toStringPredicate() << "." << std::endl;
         }
 
        std::cout << "Rules(" <<rules.size() << "):" << std::endl;
-        for (int i = 0; i < rules.size(); i++) {
+        for (long unsigned int i = 0; i < rules.size(); i++) {
             std::cout <<  "  " << rules.at(i)->toStringRule() << "." << std::endl;
         }
 
 
         std::cout << "Queries(" <<queries.size() << "):" << std::endl;
-        for (int i = 0; i < queries.size(); i++) {
+        for (long unsigned int i = 0; i < queries.size(); i++) {
             std::cout << "  " << queries.at(i)->toStringPredicate() << "?" << std::endl;
         }
 
