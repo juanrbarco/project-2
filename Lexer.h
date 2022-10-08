@@ -23,6 +23,10 @@ public:
     Lexer();
     ~Lexer();
 
+    std::vector<Token*> getToken() {   // use to get tokens as input for the parser
+        return tokens;
+    }
+
     void Run(std::string& input);
     void PrintTokens();
     

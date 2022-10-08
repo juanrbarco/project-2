@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Juan/Documents/cs236/project-1/project-1/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Juan/Documents/cs236/project-2/project-2/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target project_1
 
@@ -49,143 +49,171 @@ cmake_ninja_workdir = C$:/Users/Juan/Documents/cs236/project-1/project-1/cmake-b
 
 build cmake_object_order_depends_target_project_1: phony || CMakeFiles/project_1.dir
 
-build CMakeFiles/project_1.dir/ColonAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/ColonAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/ColonAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/ColonAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\ColonAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/ColonDashAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/ColonDashAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\ColonDashAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/Lexer.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/Lexer.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/Lexer.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/Lexer.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\Lexer.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/main.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/main.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/main.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/main.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/Token.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/Token.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/Token.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/Token.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\Token.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/PeriodAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/PeriodAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/PeriodAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/PeriodAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\PeriodAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/CommaAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/CommaAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/CommaAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/CommaAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\CommaAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/QMarkAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/QMarkAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/QMarkAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/QMarkAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\QMarkAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/LeftParenAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/LeftParenAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\LeftParenAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/RightParenAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/RightParenAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/RightParenAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/RightParenAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\RightParenAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/AddAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/AddAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/AddAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/AddAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\AddAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/MultiplyAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/MultiplyAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\MultiplyAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/FactsAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/FactsAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/FactsAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/FactsAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\FactsAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/RulesAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/RulesAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/RulesAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/RulesAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\RulesAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/SchemesAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/SchemesAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/SchemesAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/SchemesAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\SchemesAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/QueriesAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/QueriesAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/QueriesAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/QueriesAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\QueriesAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/StringAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/StringAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/StringAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/StringAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\StringAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/IDAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/IDAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/IDAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/IDAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\IDAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/CommentAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/CommentAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/CommentAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/CommentAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\CommentAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
-build CMakeFiles/project_1.dir/EOFAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-1/project-1/EOFAutomaton.cpp || cmake_object_order_depends_target_project_1
+build CMakeFiles/project_1.dir/EOFAutomaton.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/EOFAutomaton.cpp || cmake_object_order_depends_target_project_1
   DEP_FILE = CMakeFiles\project_1.dir\EOFAutomaton.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-1/project-1/.
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
+  OBJECT_DIR = CMakeFiles\project_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project_1.dir
+
+build CMakeFiles/project_1.dir/Parser.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/Parser.cpp || cmake_object_order_depends_target_project_1
+  DEP_FILE = CMakeFiles\project_1.dir\Parser.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
+  OBJECT_DIR = CMakeFiles\project_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project_1.dir
+
+build CMakeFiles/project_1.dir/Predicate.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/Predicate.cpp || cmake_object_order_depends_target_project_1
+  DEP_FILE = CMakeFiles\project_1.dir\Predicate.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
+  OBJECT_DIR = CMakeFiles\project_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project_1.dir
+
+build CMakeFiles/project_1.dir/Rule.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/Rule.cpp || cmake_object_order_depends_target_project_1
+  DEP_FILE = CMakeFiles\project_1.dir\Rule.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
+  OBJECT_DIR = CMakeFiles\project_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project_1.dir
+
+build CMakeFiles/project_1.dir/Parameter.cpp.obj: CXX_COMPILER__project_1_Debug C$:/Users/Juan/Documents/cs236/project-2/project-2/Parameter.cpp || cmake_object_order_depends_target_project_1
+  DEP_FILE = CMakeFiles\project_1.dir\Parameter.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Juan/Documents/cs236/project-2/project-2/.
   OBJECT_DIR = CMakeFiles\project_1.dir
   OBJECT_FILE_DIR = CMakeFiles\project_1.dir
 
@@ -197,7 +225,7 @@ build CMakeFiles/project_1.dir/EOFAutomaton.cpp.obj: CXX_COMPILER__project_1_Deb
 #############################################
 # Link the executable project_1.exe
 
-build project_1.exe: CXX_EXECUTABLE_LINKER__project_1_Debug CMakeFiles/project_1.dir/ColonAutomaton.cpp.obj CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.obj CMakeFiles/project_1.dir/Lexer.cpp.obj CMakeFiles/project_1.dir/main.cpp.obj CMakeFiles/project_1.dir/Token.cpp.obj CMakeFiles/project_1.dir/PeriodAutomaton.cpp.obj CMakeFiles/project_1.dir/CommaAutomaton.cpp.obj CMakeFiles/project_1.dir/QMarkAutomaton.cpp.obj CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.obj CMakeFiles/project_1.dir/RightParenAutomaton.cpp.obj CMakeFiles/project_1.dir/AddAutomaton.cpp.obj CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.obj CMakeFiles/project_1.dir/FactsAutomaton.cpp.obj CMakeFiles/project_1.dir/RulesAutomaton.cpp.obj CMakeFiles/project_1.dir/SchemesAutomaton.cpp.obj CMakeFiles/project_1.dir/QueriesAutomaton.cpp.obj CMakeFiles/project_1.dir/StringAutomaton.cpp.obj CMakeFiles/project_1.dir/IDAutomaton.cpp.obj CMakeFiles/project_1.dir/CommentAutomaton.cpp.obj CMakeFiles/project_1.dir/EOFAutomaton.cpp.obj
+build project_1.exe: CXX_EXECUTABLE_LINKER__project_1_Debug CMakeFiles/project_1.dir/ColonAutomaton.cpp.obj CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.obj CMakeFiles/project_1.dir/Lexer.cpp.obj CMakeFiles/project_1.dir/main.cpp.obj CMakeFiles/project_1.dir/Token.cpp.obj CMakeFiles/project_1.dir/PeriodAutomaton.cpp.obj CMakeFiles/project_1.dir/CommaAutomaton.cpp.obj CMakeFiles/project_1.dir/QMarkAutomaton.cpp.obj CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.obj CMakeFiles/project_1.dir/RightParenAutomaton.cpp.obj CMakeFiles/project_1.dir/AddAutomaton.cpp.obj CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.obj CMakeFiles/project_1.dir/FactsAutomaton.cpp.obj CMakeFiles/project_1.dir/RulesAutomaton.cpp.obj CMakeFiles/project_1.dir/SchemesAutomaton.cpp.obj CMakeFiles/project_1.dir/QueriesAutomaton.cpp.obj CMakeFiles/project_1.dir/StringAutomaton.cpp.obj CMakeFiles/project_1.dir/IDAutomaton.cpp.obj CMakeFiles/project_1.dir/CommentAutomaton.cpp.obj CMakeFiles/project_1.dir/EOFAutomaton.cpp.obj CMakeFiles/project_1.dir/Parser.cpp.obj CMakeFiles/project_1.dir/Predicate.cpp.obj CMakeFiles/project_1.dir/Rule.cpp.obj CMakeFiles/project_1.dir/Parameter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\project_1.dir
@@ -212,7 +240,7 @@ build project_1.exe: CXX_EXECUTABLE_LINKER__project_1_Debug CMakeFiles/project_1
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Juan\Documents\cs236\project-1\project-1\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Juan\Documents\cs236\project-2\project-2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -223,7 +251,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Juan\Documents\cs236\project-1\project-1\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Juan\Documents\cs236\project-1\project-1 -BC:\Users\Juan\Documents\cs236\project-1\project-1\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Juan\Documents\cs236\project-2\project-2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Juan\Documents\cs236\project-2\project-2 -BC:\Users\Juan\Documents\cs236\project-2\project-2\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -241,7 +269,7 @@ build project_1: phony project_1.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Juan/Documents/cs236/project-1/project-1/cmake-build-debug
+# Folder: C:/Users/Juan/Documents/cs236/project-2/project-2/cmake-build-debug
 
 build all: phony project_1.exe
 
